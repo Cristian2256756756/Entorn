@@ -2,9 +2,18 @@ import './aboutme.css';
 import MyButton from './MyButton'; 
 
 function AboutmeCristian(){
+
   return(
     <>
     <h1>Bienvenido a mi perfil</h1>
+
+    return(
+        <>
+        <h1>Welcome  to my Profile</h1>
+    <MyButton/>
+
+    <h1>Est</h1>
+
     <img
       className="Foto de perfil"
       src={user.imageUrl} 
