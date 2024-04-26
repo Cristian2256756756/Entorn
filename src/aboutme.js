@@ -2,12 +2,9 @@ import './aboutme.css';
 import MyButton from './MyButton'; 
 
 function AboutmeCristian(){
-    return(
-        <>
-        <h1>Welcome  to my Profile</h1>
-    <MyButton/>
-
-    <h1>Este es mi perfil</h1>
+  return(
+    <>
+    <h1>Bienvenido a mi perfil</h1>
     <img
       className="Foto de perfil"
       src={user.imageUrl} 
@@ -17,12 +14,15 @@ function AboutmeCristian(){
         height: user.imageSize
       }}
     />
-    <h2>Sobre mi</h2>
+    <h2>Quien es Cristian?</h2>
     <p>Hello, I'm Cristian Valentin Anghel, a student of multiplatform application development.<br></br>
     My dedication and effort in learning across various environments have allowed me to acquire <br></br>a
     broad set of skills and knowledge.Currently, I'm focused on the professional profile of video games and entertainment<br></br> 
     but in the future, I'm interested in mobile application development and web page design.
     </p>
+    <MyButton/>
+
+
     </>
     )
 }
