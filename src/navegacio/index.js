@@ -1,7 +1,5 @@
 import './navegacio.css';
 import React from 'react';
-import AboutmeCristian from './aboutme';
-import {Link} from 'react-router-dom';
 
 function Menu(){
     return(
@@ -15,7 +13,7 @@ function Menu(){
         <li><a href="/">Home</a></li>
         <li><a href="aboutme.js">About</a></li>
         <li><a href="/">Pricing</a></li>
-        <li><a href="/">Contact</a></li>
+        <li><a href="/About">Contact</a></li>
 
       </div>
     </ul>

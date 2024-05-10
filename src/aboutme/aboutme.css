@@ -1,0 +1,163 @@
+body {
+    background-color: rgb(176, 214, 211);
+    background-image: url('https://images.pexels.com/photos/683039/pexels-photo-683039.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover
+    background
+}
+  
+  h1 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+  }
+  
+  h2{
+    text-align: center;
+  }
+  p {
+    font-family: verdana;
+    font-size: 20px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+  }
+  img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: solid;
+  }
+.Click{
+
+}
+.btn-1{
+  display: inline-block;
+  padding: 11px 35px;
+  background-color: #CE9678;
+  color: #F9FAFC;
+  text-transform: uppercase;
+}
+
+.btn-1:hover{
+    background-color: #ebad8d;
+}
+
+.Sobremi {
+  padding: 100px;
+  background-color: #E1E2E6;
+  position: relative;
+}
+
+.Sobremi-content {
+  text-align: center;
+}
+.Sobremi-content h2 {
+  font-size: 55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  padding: 0 250px;
+  margin-bottom: 15px;
+}
+
+.txt-p {
+  font-size: 16px;
+  color: #414247;
+  padding: 0 250px;
+}
+
+.Sobremi-group{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+  justify-content: center; 
+  align-items: center; 
+  flex-direction: column; 
+  height: 100%; 
+}
+.Sobremi-group p {
+  text-align: center; 
+}
+.Sobremi-1 img{
+  width: 200px;
+}
+
+.Sobremi-img{
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.Sobremi-1 h3 {
+  color: #323337;
+  font-size: 20px;
+  margin-bottom: 15px;
+}
+
+h2{
+  font-size: 55px;
+  line-height: 70px;
+  color: #323337;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+
+p{
+font-size: 16px;
+color: #414247;
+margin: 25px 0 45px 0;
+}
+
+
+@media(max-width:992px){
+  .menu{
+    padding: 30px;
+  }
+
+  .menu label {
+    display: initial;
+  }
+
+  .menu .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: #323337;
+    display: none;
+  }
+
+  .menu .navbar ul li {
+    width: 100%;
+  }
+
+  #menu:checked ~ ,.navbar {
+    display: initial;
+  }
+
+  .Sobremi {
+    padding: 30px;
+  }
+
+  .Sobremi-content h2 {
+    padding: 0;
+  }
+
+  .Sobremi-p {
+    padding: 0;
+  }
+
+  .Sobremi-group {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+.Sobremi-img{
+  display: none;
+}
+
+
+
+
+
+
+}
+ 
