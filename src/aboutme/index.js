@@ -1,4 +1,4 @@
-import "./aboutme.css";
+import "./aboutme.scss";
 import MyButton from "./cv";
 
 function AboutmeCristian() {
@@ -21,7 +21,6 @@ function AboutmeCristian() {
           height: user.imageSize,
         }}
       />
-      <MyButton />
 
       <section
         class="Sobremi"
@@ -29,12 +28,12 @@ function AboutmeCristian() {
         itemtype="http://schema.org/VideoGameSeries"
       >
         <div class="Sobremi-content container">
-          <h2>Crstian Valentin Anghel</h2>
-          <p class="txt-p">Breve descripcion</p>
+          <h2>Cristian Valentin Anghel</h2>
+          <p class="txt-p">Brew description</p>
 
           <div class="Sobremi-group">
             <div class="Sobremi-1">
-              <p>
+              <p class="Informacion">
                 Hello, I'm Cristian Valentin Anghel, a student of multiplatform
                 application development.<br></br>
                 My dedication and effort in learning across various environments
@@ -46,12 +45,12 @@ function AboutmeCristian() {
               </p>
             </div>
           </div>
-          <a
-            href="https://es.linkedin.com/in/cristian-valentin-anghel-044560262"
-            class="btn-1"
-          >
-            Perfil de Linkedin
-          </a>
+          <div className="container button-container">
+            <a href="https://es.linkedin.com/in/cristian-valentin-anghel-044560262" className="btn-1">
+              Linkedin
+            </a>
+           <MyButton />
+          </div>
         </div>
       </section>
     </>

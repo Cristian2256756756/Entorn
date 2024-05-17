@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 
 import Menu from '../navegacio';
 
@@ -26,6 +26,7 @@ function MyForm(){
     </form>
   )
 }
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<MyForm />);
 

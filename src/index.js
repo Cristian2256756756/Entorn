@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
+import './index.scss';
 import App from './App';
 import AboutmeCristian from './aboutme';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
@@ -16,6 +16,7 @@ const router = createBrowserRouter([
     element: <AboutmeCristian />,
   },
 ]);
+
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 
