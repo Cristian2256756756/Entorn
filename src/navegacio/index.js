@@ -4,7 +4,6 @@ import React from 'react';
 function Menu(){
     return(
 
-<body>
   <nav class="navbar">
     <ul class="nav-links">
       <input type="checkbox" id="checkbox_toggle" />
@@ -20,7 +19,7 @@ function Menu(){
      
     </ul>
   </nav>
-</body>
+
     )
 }
 export default Menu;

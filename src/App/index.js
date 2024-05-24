@@ -1,19 +1,22 @@
 import React from 'react';
 import './App.scss';
-
 import Menu from '../navegacio';
-
 import ReactDOM from 'react-dom/client';
+import Main from '../parallaxmenu';
 
 
 function App() {
  return (
+  <div>
     <div className="App">
       <header className="App-header">
       </header>
       
-       <Menu/>
+        <Menu/>
+        <Main/>
     </div>
+  
+  </div>
 
  );
 }
