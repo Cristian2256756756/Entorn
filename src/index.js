@@ -3,26 +3,15 @@ import ReactDOM from 'react-dom/client';
 import './index.scss';
 import App from './App';
 import AboutmeCristian from './aboutme';
-import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-
-const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <App />,
-  },
-  {
-    path: "about",
-    element: <AboutmeCristian />,
-  },
-]);
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
-
-root.render(
+ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
-    <RouterProvider router={router}/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<App />} />
+        <Route path="about" element={<AboutmeCristian />} />
+      </Routes>
+    </BrowserRouter>
   </React.StrictMode>
 );
-

@@ -42,4 +42,20 @@
     border-bottom: 2px solid #49557e;
 }
 
+.navbar li{
+    cursor: pointer;                     /*Cursor encima de diferentes paginas que puedes escoger en el menu*/
+}
+.navbar-search-icon {
+    position: relative;
+  }
+  
+  .navbar-search-icon .dot {
+    position: absolute;
+    width: 10px; /* Corregido, antes estaba duplicado */
+    height: 10px; /* Añadido para dar altura */
+    background-color: tomato;
+    border-radius: 50%; /* Cambio a 50% para hacer un círculo perfecto */
+    top: -5px; /* Ajustar posición */
+    right: -5px; /* Ajustar posición */
+  }
 
