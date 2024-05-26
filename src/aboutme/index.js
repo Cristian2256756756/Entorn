@@ -13,7 +13,7 @@ function AboutmeCristian() {
     <>
       <h1>Welcome to my Profile</h1>
       <img
-        className="Foto de perfil"
+        className="profile-photo"
         src={user.imageUrl}
         alt={"Photo of " + user.name}
         style={{
@@ -23,17 +23,17 @@ function AboutmeCristian() {
       />
 
       <section
-        class="Sobremi"
+        className="about-me"
         itemscope
         itemtype="http://schema.org/VideoGameSeries"
       >
-        <div class="Sobremi-content container">
+        <div className="about-me-content container">
           <h2>Cristian Valentin Anghel</h2>
-          <p class="txt-p">Brew description</p>
+          <p className="description">Brew description</p>
 
-          <div class="Sobremi-group">
-            <div class="Sobremi-1">
-              <p class="Informacion">
+          <div className="about-me-group">
+            <div className="about-me-info">
+              <p className="information">
                 Hello, I'm Cristian Valentin Anghel, a student of multiplatform
                 application development.<br></br>
                 My dedication and effort in learning across various environments
@@ -45,11 +45,14 @@ function AboutmeCristian() {
               </p>
             </div>
           </div>
-          <div className="container button-container">
-            <a href="https://es.linkedin.com/in/cristian-valentin-anghel-044560262" className="btn-1">
-              Linkedin
+          <div className="button-container">
+            <a
+              href="https://es.linkedin.com/in/cristian-valentin-anghel-044560262"
+              className="btn-linkedin"
+            >
+              LinkedIn
             </a>
-           <MyButton />
+            <MyButton />
           </div>
         </div>
       </section>
