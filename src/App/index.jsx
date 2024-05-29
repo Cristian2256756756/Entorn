@@ -6,10 +6,12 @@ import Navbar from '../components/Navbar/Navbar';
 import Home from '../Home/Home';
 import PlaceOrder from '../PlaceOrder/PlaceOrder';
 import Cart from '../Cart/Cart';
+import Footer from '../components/Footer/Footer';
 
 const App = () => {
   return (
-    <div className="App">
+    <>
+     <div className="App">
       <header className="App-header">
       </header>
       <Navbar />
@@ -19,19 +21,11 @@ const App = () => {
         <Route path="/order" element={<PlaceOrder />} />
       </Routes>
     </div>
+    <Footer/>
+    </>
+   
   );
 };
-
-function MyForm() {
-  return (
-    <form>
-      <label>
-        Enter your name:
-        <input type="text" />
-      </label>
-    </form>
-  );
-}
 
 // Wrap the App component with BrowserRouter to enable routing
 const root = ReactDOM.createRoot(document.getElementById('root'));
