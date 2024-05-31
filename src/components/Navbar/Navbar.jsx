@@ -3,7 +3,7 @@ import './Navbar.scss'
 import {assets} from '../../assets/assets'
 import { Link } from 'react-router-dom';
 
-const Navbar = () => {
+const Navbar = ({setShowLogin}) => {
 
   const[menu, setMenu] = useState("Home");                       /*Para poder poner una linea debajo de la opcion que estemos del menu*/
 
@@ -24,7 +24,7 @@ const Navbar = () => {
                 <img src={assets.basket_icon} alt=""/>
                 <div className="dot"></div>
             </div>
-            <button>Sign in</button>
+            <button onClick={()=>setShowLogin(true)}>Sign in</button>
           </div>
         </div>
     )
