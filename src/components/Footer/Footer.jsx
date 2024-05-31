@@ -8,11 +8,21 @@ const Footer = () => {
         <div className="footer-content">
             <div className="footer-content-left">
                 <img src={assets.logo} alt="Logo" class="footer-logo"/>
-                <p>Teteras en almibar son la hostia tete, lorep ipsum</p>
+                <p>High-end food delivery offers gourmet dishes crafted by renowned 
+                    chefs using fresh, high-quality ingredients. These services provide an exceptional 
+                    culinary experience at home.
+                </p>
                 <div className="footer-social-icons">
-                    <img src={assets.facebook_icon} alt="" />
-                    <img src={assets.twitter_icon} alt="" />
-                    <img src={assets.linkedin_icon} alt="" />
+                    <a href="https://www.facebook.com/profile.php?id=61560337293612" >
+                        <img src={assets.facebook_icon} alt="" />
+                    </a>
+                    <a href="https://x.com/KaetroFood53161" >
+                        <img src={assets.twitter_icon} alt="" />
+                    </a>
+                    <a href="https://es.linkedin.com/in/cristian-valentin-anghel-044560262" >
+                        <img src={assets.linkedin_icon} alt="" />
+                    </a>
+
                 </div>
             </div>
             <div className="footer-content-center">
@@ -25,7 +35,7 @@ const Footer = () => {
                 </ul>
             </div>
             <div className="footer-content-right">
-                <h2>GET IN TOUCH</h2>
+                <h2>CONTACT US</h2>
                 <ul>
                     <li>+64 654 334 232</li>
                     <li>Kaetro@gmail.com</li>
@@ -33,7 +43,7 @@ const Footer = () => {
             </div>
         </div>
         <hr />
-        <p className="footer-copyright">Copyright 2024 Kaetro.com - No copien culeros</p>
+        <p className="footer-copyright">Copyright 2024 Kaetro.com - Cristian Valentin Anghel</p>
     </div>
   )
 }
